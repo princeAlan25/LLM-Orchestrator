@@ -19,10 +19,9 @@ app.use(express.json());
 
 //mock database as in-memory database or hardcoded database
 const users: User[] = [
-    { id: 1, username: "prince", email: "prince.alain.loui@gmail.com" },
-    { id: 2, username: "alan", email: "alain.loui@gmail.com" },
-    { id: 3, username: "alan", email: "loui@gmail.com" },
-
+    { id: 1, username: "example1", email: "example1@gmail.com" },
+    { id: 2, username: "example2", email: "example2@gmail.com" },
+    { id: 3, username: "example3", email: "example3@gmail.com" },
 ]
 
 
