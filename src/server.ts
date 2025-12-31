@@ -10,10 +10,6 @@ import { functionalToolsDescriptions, llmGuidancePrompts } from "./mcp/toolsDesc
 
 const app = express();
 const PORT = (process.env.PORT as unknown) as number;
-//middleware contents-type
-app.use(cors({
-    origin: 'http://localhost:5173'
-}));
 app.use(express.json());
 
 
